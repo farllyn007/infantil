@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.syllables {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.syllable {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.syllable:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#resultado {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
